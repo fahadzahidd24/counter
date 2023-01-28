@@ -1,0 +1,48 @@
+body{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(1, 1, 58);
+    font-size: 45px;
+    text-transform: uppercase;
+}
+span{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.buttons{
+    margin-top: 2em;
+    display: flex;
+}
+.btn{
+    padding: 1.3em;
+    background-color: thistle;
+    color: black;
+    /* color: rgb(177, 0, 0); */
+    border-radius: 1em;
+    outline: none;
+    margin: 1em;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.min,.plus{
+    padding-left: 2em;
+    padding-right: 2em;
+    /* font-size: 20px; */
+}
+.btn:hover{
+    /* transition: all 1s ease-in-out; */
+    opacity: 0.8;
+}
